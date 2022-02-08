@@ -149,3 +149,29 @@ ul li {
     text-decoration: none;
   }
 }
+
+@media screen and (max-width: 900px) {
+  .main {
+    display: initial;
+  }
+
+  section {
+    margin-right: 2em;
+  }
+
+  article {
+    border: none;
+  }
+
+  .project-cards {
+    flex-direction: column;
+  }
+
+  .project-card {
+    width: initial;
+  }
+
+  footer {
+    text-align: center;
+  }
+}
