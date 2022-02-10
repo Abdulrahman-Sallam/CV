@@ -9,7 +9,7 @@ body {
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 6vw;
   letter-spacing: 0.6em;
   padding-top: 1em;
   padding-bottom: 0;
@@ -80,6 +80,7 @@ article {
 
 footer {
   text-align: end;
+  margin-bottom: 1em;
 }
 
 .name {
@@ -150,7 +151,7 @@ ul li {
   }
 }
 
-@media screen and (max-width: 900px) {
+@media only screen and (max-width: 900px) {
   .main {
     display: initial;
   }
